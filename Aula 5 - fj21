@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-04T13:44:29.552Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="vxPvYqugOtZnvJCxYrjD" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-04T15:23:58.079Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="YVYEX0HwfVuaMK96t1IQ" version="13.5.8" type="github">
   <diagram id="osvNj1UzdenI4lJuT6iF" name="Página-1">
-    <mxGraphModel dx="-3705" dy="5130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-4918" dy="4454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1099,6 +1099,156 @@
         </mxCell>
         <mxCell id="AXoicKYVuximKMrNKPZd-49" value="Paradigma OO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="14200" y="2910" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fontSize=36;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-50" target="AXoicKYVuximKMrNKPZd-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-50" target="AXoicKYVuximKMrNKPZd-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-50" value="&lt;font style=&quot;font-size: 36px&quot;&gt;@Entity&lt;br&gt;Torna a classe anotada um entidade gerenciada pelo JPA/Hibernate&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15490" y="2492" width="450" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-51" value="&lt;font style=&quot;font-size: 36px&quot;&gt;@Id -&amp;gt; PK&lt;br&gt;@GeneratedValue -&amp;gt; Stategy&lt;br&gt;&lt;br&gt;AUTO -&amp;gt; SEQUENCE&lt;br&gt;TABLE -&amp;gt; CONTADOR EXTERNO COM UM LOCK NA LINHA&lt;br&gt;IDENTITY -&amp;gt; CONTADOR INTERNO SEM LOCK&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="16070" y="2450" width="700" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-52" value="&lt;font style=&quot;font-size: 36px&quot;&gt;Construtor vazio (padrão)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="16070" y="2890" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-55" value="&lt;font style=&quot;font-size: 36px&quot;&gt;Vou manipular entidades&lt;br&gt;EntityManager&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="16010" y="2140" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-56" target="AXoicKYVuximKMrNKPZd-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-56" target="AXoicKYVuximKMrNKPZd-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-56" target="AXoicKYVuximKMrNKPZd-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-56" value="&lt;font style=&quot;font-size: 36px&quot;&gt;EntityManagerFactory&lt;br&gt;Fabrica de EntityManager&lt;br&gt;Preparar o terreno pro EntityManager&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15713" y="1790" width="450" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-58" target="AXoicKYVuximKMrNKPZd-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-58" value="&lt;font style=&quot;font-size: 36px&quot;&gt;Persistence&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="16040" y="1530" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-60" target="AXoicKYVuximKMrNKPZd-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-60" target="AXoicKYVuximKMrNKPZd-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-60" value="persistence-unit&lt;br&gt;tarefas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=36;align=center;" vertex="1" parent="1">
+          <mxGeometry x="16560" y="1580" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-61" target="AXoicKYVuximKMrNKPZd-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-61" value="Descreve como eu vou me conectar com o banco, credenciais, as classes e etc..." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=36;align=center;" vertex="1" parent="1">
+          <mxGeometry x="16790" y="1970" width="500" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-63" value="Base de dados&lt;br&gt;fj21_tarefas" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=36;align=center;" vertex="1" parent="1">
+          <mxGeometry x="17030" y="1520" width="210" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-65" target="AXoicKYVuximKMrNKPZd-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-65" value="Base de dados&lt;br&gt;fj21_produtos" style="shape=cylinder2;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=36;align=center;" vertex="1" parent="1">
+          <mxGeometry x="17520" y="1680" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;fontSize=36;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-66" target="AXoicKYVuximKMrNKPZd-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-66" value="persistence-unit&lt;br&gt;produtos" style="rounded=1;whiteSpace=wrap;html=1;fontSize=36;align=center;" vertex="1" parent="1">
+          <mxGeometry x="17490" y="2090" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-70" value="persistence-unit&lt;br&gt;tarefas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=36;align=center;" vertex="1" parent="1">
+          <mxGeometry x="16240" y="1753" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-71" value="Criar as tabelas" style="rounded=1;whiteSpace=wrap;html=1;fontSize=36;align=center;" vertex="1" parent="1">
+          <mxGeometry x="15350" y="1490" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-73" value="&lt;font style=&quot;font-size: 36px&quot;&gt;EntityManager&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15110" y="1900" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-75" value="&lt;font style=&quot;font-size: 36px&quot;&gt;EntityManager&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14302.75" y="1410" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-77" value="" style="endArrow=classic;html=1;strokeWidth=5;fontSize=36;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="14110" y="1700" as="sourcePoint" />
+            <mxPoint x="14700" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-80" value="Começo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="14051.38" y="1718" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-81" value="Fim" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="14680" y="1718" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-82" value="Transação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="14302.75" y="1640" width="177" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-83" value="OP1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=32;align=center;" vertex="1" parent="1">
+          <mxGeometry x="14171.38" y="1770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-86" value="OP2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=32;align=center;" vertex="1" parent="1">
+          <mxGeometry x="14290" y="1770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-87" value="..." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=32;align=center;" vertex="1" parent="1">
+          <mxGeometry x="14420" y="1770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-88" value="OPn" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=32;align=center;" vertex="1" parent="1">
+          <mxGeometry x="14530" y="1770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-89" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/virtual-notebook/16/button_close-128.png;fontSize=32;align=center;" vertex="1" parent="1">
+          <mxGeometry x="14302.75" y="1820" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-90" value="Rollback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="14253" y="1900" width="177" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-91" value="" style="endArrow=classic;html=1;strokeWidth=5;fontSize=36;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="13998.62" y="1190" as="sourcePoint" />
+            <mxPoint x="14588.62" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-92" value="begin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="13940" y="1208" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-93" value="commit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="14568.62" y="1208" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-94" value="Transação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="14191.37" y="1130" width="177" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-95" value="adiciona nova tarefa" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;align=center;" vertex="1" parent="1">
+          <mxGeometry x="14238.62" y="1197" width="143" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-96" value="Usamos uma transação quando queremos evitar algum tipo de inconsistência nos nossos dados" style="rounded=1;whiteSpace=wrap;html=1;fontSize=36;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="14800" y="1300" width="330" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;fontSize=28;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-97" target="AXoicKYVuximKMrNKPZd-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-97" value="&lt;font style=&quot;font-size: 36px&quot;&gt;JPQL&lt;br&gt;Jakarta Persistence Query Language&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="13490" y="555" width="370" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-98" value="select t from Tarefa as t&amp;nbsp; where t.finalizado = :paramFinalizado" style="rounded=1;whiteSpace=wrap;html=1;fontSize=28;align=center;" vertex="1" parent="1">
+          <mxGeometry x="13272.75" y="850" width="1030" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-99" value="select * from Tarefa as t where t.finalizado = true" style="rounded=1;whiteSpace=wrap;html=1;fontSize=28;align=center;" vertex="1" parent="1">
+          <mxGeometry x="13902.75" y="320" width="1030" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.626;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;fontSize=28;" edge="1" parent="1" source="AXoicKYVuximKMrNKPZd-100" target="AXoicKYVuximKMrNKPZd-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AXoicKYVuximKMrNKPZd-100" value="&lt;font style=&quot;font-size: 36px&quot;&gt;SQL&lt;br&gt;Structure Query Language&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14145" y="546" width="370" height="144" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
