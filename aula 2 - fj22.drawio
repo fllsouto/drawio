@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-07T12:46:17.678Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="MmREdOiHuy6LB15R00c2" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-07T14:20:30.950Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="vJS_TzQYAoDxc9y7mMhw" version="13.6.0" type="github">
   <diagram id="dVoCBdO5zc-kdHy0kOgf" name="Página-1">
-    <mxGraphModel dx="2626" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1530" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -781,6 +781,16 @@
         <mxCell id="jfRTJ_0rn66j7NU5pKJY-253" value="@RequestMapping(&quot;/admin/sessao&quot;)&lt;br&gt;public ModelAndView form(...)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=25;align=left;" parent="1" vertex="1">
           <mxGeometry x="5820" y="1420" width="500" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="TaaR9SCs2tPsbfE353sb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jfRTJ_0rn66j7NU5pKJY-254" target="TaaR9SCs2tPsbfE353sb-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6470" y="1689.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaaR9SCs2tPsbfE353sb-6" value="método que faz&amp;nbsp;&lt;br style=&quot;font-size: 18px;&quot;&gt;algum tipo de&lt;br style=&quot;font-size: 18px;&quot;&gt;mudança" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="TaaR9SCs2tPsbfE353sb-5">
+          <mxGeometry x="0.0863" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jfRTJ_0rn66j7NU5pKJY-254" value="@RequestMapping(&quot;/admin/sessao&quot;)&lt;br&gt;public ModelAndView create(...)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=25;align=left;" parent="1" vertex="1">
           <mxGeometry x="5820" y="1639.5" width="500" height="100" as="geometry" />
         </mxCell>
@@ -901,6 +911,9 @@
         </mxCell>
         <mxCell id="jfRTJ_0rn66j7NU5pKJY-298" value="Matrícula" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=25;align=center;" parent="1" vertex="1">
           <mxGeometry x="4960" y="3470" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TaaR9SCs2tPsbfE353sb-4" value="@Transactional&lt;br&gt;org.springframework" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=25;align=left;" vertex="1" parent="1">
+          <mxGeometry x="6700" y="1639.5" width="260" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
